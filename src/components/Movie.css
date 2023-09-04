@@ -1,0 +1,71 @@
+/* 링크 밑줄이 안 없어진다
+배경에 사진 어떻게 넣는 건지 모르겠음 -> 아까 됐었는데!! 
+깃허브에서 웹사이트 배포하는 방법
+png 이미지 넣기
+ */
+
+body {
+  background-color: #403f3f;
+  font-family: "Merriweather", serif;
+}
+
+.total {
+  padding: 30px 300px;
+}
+/* 마우스 오버 용 박스 */
+.box {
+  transition: all 0.3s ease-out;
+}
+/* 마우스 오버 시 움직이는 효과 */
+.box:hover {
+  transform: translateY(-10px);
+}
+/* flex용 박스 */
+.flexBox {
+  height: 350px;
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  border-radius: 50px;
+  background-color: #1d1b1b;
+}
+.img-box {
+}
+.textBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.coverImg {
+  border-radius: 20px;
+}
+
+.title {
+  color: #ffffff;
+  font-weight: 400;
+}
+.summary {
+  color: #ffffff;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+}
+.genres {
+  display: flex;
+  flex-wrap: wrap;
+  color: #ffffff;
+  padding: 0;
+  margin-bottom: 0;
+}
+.genre {
+  border-style: solid;
+  border-radius: 30px;
+  border-color: #0096ff;
+  padding: 5px;
+  margin: 5px;
+}
