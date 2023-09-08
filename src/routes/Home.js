@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Movie from "../components/Movie";
 import "./Home.css";
+import whale from "../image/blue-whale.png";
 
 function Home() {
   const [loading, setLoading] = useState(true);
@@ -31,7 +32,7 @@ function Home() {
       ) : (
         <div>
           <div id="title-box">
-            <img id="whale" src="image/blue-whale.png" alt="whale" />
+            <img id="whale" src={whale} alt="whale" />
             <h1 id="title">MVWD</h1>
           </div>
           {movies.map((movie) => (

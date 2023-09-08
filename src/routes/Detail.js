@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Explain from "../components/Explain";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
+import x from "../image/x.png";
 
 import "./Detail.css";
 
@@ -53,7 +54,7 @@ function Detail() {
       ) : (
         <div style={{ backgroundImage: `${background_image}` }}>
           <div className="detailBox">
-            <img src="/image/x.png" id="x" onClick={() => history.goBack()} />
+            <img src={x} id="x" onClick={() => history.goBack()} />
 
             <div className="imgBox">
               <img className="coverImg" src={coverImg} alt={title} />
