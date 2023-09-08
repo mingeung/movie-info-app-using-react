@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/movie-info-app-using-react/static/css/main.0a431484.css",
+    "main.js": "/movie-info-app-using-react/static/js/main.ed19adef.js",
+    "static/media/blue-whale.png": "/movie-info-app-using-react/static/media/blue-whale.5d68dfeec89f1b0cf1bf.png",
+    "index.html": "/movie-info-app-using-react/index.html",
+    "main.0a431484.css.map": "/movie-info-app-using-react/static/css/main.0a431484.css.map",
+    "main.ed19adef.js.map": "/movie-info-app-using-react/static/js/main.ed19adef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a431484.css",
+    "static/js/main.ed19adef.js"
+  ]
+}
